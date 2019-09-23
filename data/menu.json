@@ -1,0 +1,22 @@
+[
+    {
+        "naziv":"Pocetna",
+        "link" : "index.html",
+        "ikona": "home"
+    },
+    {
+        "naziv":"Proizvodi",
+        "link" : "products.html",
+        "ikona": "leaf"
+    },
+    {
+        "naziv":"O nama",
+        "link" : "about.html",
+        "ikona": "graduation-cap"
+    },
+    {
+        "naziv":"Kontakt",
+        "link" : "contact.html",
+        "ikona": "chat"
+    }
+]

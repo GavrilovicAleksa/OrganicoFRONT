@@ -1,0 +1,326 @@
+//HEDER POCETAK
+.logo{
+    height: 4rem;
+    margin-left: 2rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__input{
+        font-family: inherit;
+        font-size: inherit;
+        color:inherit;
+        background-color: $Greylight2;
+        border:none;
+        padding: .7rem 2rem;
+        border-radius: 10rem;
+        width:90%;
+        margin-right: -3.5rem;
+        font-weight: 400;
+        outline: none;
+    }
+    &__button{
+        border:none;
+        background-color: $Greylight3;
+        outline: none;
+    }
+    &__icon{
+        height:2reM;
+        width:2rem;
+        fill: $Greydark2;
+        outline: none;
+    }
+    flex:0 0 40%;
+}
+.cart{
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    padding:0 2rem;
+    position: relative;
+    &__icon{
+        height:4rem;
+        width:4rem;
+        fill:$Greydark2;
+    }
+    &__number{
+        height:1.75rem;
+        width:1.75rem;
+        border-radius: 50%;
+        background-color:$primary-light;
+        position: absolute;
+        top:0.8rem;
+        left:5.2rem;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        color:$Greylight1;
+    }
+    margin-right: 0.5rem;
+}
+//HEDER KRAJ
+//NAVIGACIJA POCETAK
+.side-nav{
+    font-size:1.4rem;
+    list-style: none;
+    margin-top: 3.5rem;
+    @media only screen and (max-width: 56.25em){
+        display:flex;
+        margin:0;
+    }
+    &__item{
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+        @media only screen and (max-width: 56.25em){
+            flex:1;
+        }
+    }
+
+    &__color{
+        background-color: $primary-light;
+    }
+    &__link{
+        color:$Greylight1;
+        text-decoration: none;
+        text-transform: uppercase;
+        display:block;
+        padding: 1.5rem 3rem;
+        display:flex;
+        align-items: center;
+        @media only screen and (max-width: 56.25em){
+            justify-content: center;
+            padding:2rem;
+        }
+        @media only screen and (max-width: 31.25em){
+            flex-direction: column;
+            padding:1rem;
+        }
+    }
+    &__icon{
+        width:1.75rem;
+        height:1.75rem;
+        margin-right: 2rem;
+        fill:$Greylight1;
+        @media only screen and (max-width: 31.25em){
+            margin:auto;
+        }
+    }
+}
+//NAVIGACIJA KRAj
+.product__img{
+    width:100%;
+}
+.paragraph{
+    margin-bottom: 2rem;
+}
+
+.paragraph p{
+    border-bottom: 1px solid $Greylight3;
+    font-size: 1.2rem;
+}
+.pagination{
+    text-align: center;
+    margin-top: auto;
+}
+.pagination a {
+    
+    padding:0.7rem 1rem;
+    text-decoration: none;
+    background-color:$Greylight3;
+    color:$Greydark2;
+    margin-left: .5rem;
+}
+.product-card{
+    padding: 2%;
+}
+.product-card{
+    display:flex;
+    font-size: 1.4rem;
+    border: 1px solid lightgrey;
+    justify-content: space-around;
+    flex-basis: 30%;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    @media only screen and (max-width: 50em){
+        flex-basis:45%;
+    }
+    @media only screen and (max-width: 31.25em){
+        flex-basis: 60%;
+        min-width:100%;
+        margin-left:0px;
+    }
+
+}
+.product-image img {
+    max-width: 100%;
+    height: 11rem;
+    width:11rem;
+}
+.product-info{
+    flex-direction: column;
+}
+.product-info h6{
+    font-size: 1.8rem;
+}
+.kolica{
+    background-color: $primary-light;
+    color:$Greylight2;
+    padding:.5rem;
+    cursor: pointer;
+}
+.main__form{
+    display:flex;
+    flex-direction: column;
+    flex:0 0 40%;
+    margin:auto;
+    margin-top:5rem;
+    display:flex;
+    
+}
+.main__text{
+    margin-top: 2rem;
+    border-radius: 10rem;
+    padding: 1rem 2rem;
+    font-weight: 400;
+    border: 1px solid lightgray;
+}
+.main__text{
+    outline: none;
+}
+.area{
+    resize: none;
+    height:6rem;
+}
+.forma{
+    display:flex;
+}
+.main__link{
+    width:100%;
+    padding: 1rem 2rem;
+    background-color: $primary-light;
+    font-weight: 400;
+    margin-top: 2rem;
+    border-radius: 10rem;
+    text-align: center;
+    color:white;
+    font-size:1.4rem;
+}
+.crvena{
+    border:1px solid red;
+}
+.zelena{
+    border:1px solid $primary-dark;
+}
+#rezultat{
+    text-align: center;
+    margin-top: 2rem;
+    color:$primary-dark;
+}
+.popular{
+    &__item{
+        flex:45%;
+
+        padding: 2%;
+        @media only screen and (max-width: 31.25em){
+            flex-basis: 60%;
+            min-width:100%;
+            text-align:center;
+        }
+    }
+    &__img{
+        width:11rem;
+        height:11rem;
+        margin-bottom:1.5rem;
+        @media only screen and (max-width: 31.25em){
+            flex-basis: 60%;
+            min-width:100%;
+            margin-bottom:1rem;
+            margin:auto;
+        }
+    }
+    &__info{
+        @media only screen and (max-width: 31.25em){
+            margin-top:2rem;
+        }
+        padding:1.5rem 0rem;
+        font-size: 1.4rem;
+        margin-top: auto;
+    }
+}
+.zeleno{
+    background-color:$primary-light;
+}
+#cart-products{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:30rem;
+    margin:1rem auto;
+}
+.product-cart{
+    flex:1;    
+    display:flex;
+    background-color: white;
+    border: 1px solid $Greydark1;
+    margin-top:2rem;
+}
+.product-info-cart{
+    font-size: 2rem;
+    padding:1rem;
+}
+.btn-clear{
+    padding: .7rem 2rem;
+    border-radius: 10rem;
+    background-color:$primary-light;
+}
+#ObrisiRezultat{
+    padding:1rem 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#categories{
+    height:3rem;
+    font-size: 1.6rem;
+    color:$Greydark2;
+}
+.categories__option{
+    height:3rem;
+}
+.about-img{
+    margin: 5rem auto;
+    border-radius: 100%;
+    width:40rem;
+}
+.about-desc{
+    text-align: center;
+    font-size: 2rem;
+}
+.side-nav__link-doc{
+    margin-top:auto;
+    color:white;
+    font-size:1.8rem;
+    @media only screen and (max-width: 56.25em){
+        display: none;
+    }
+    text-align: center;
+}
+.empty-cart{
+    text-align: center;
+}
+#dokumentacija{
+    text-align: center;
+    font-size:1.2rem;
+    background-color:white;
+    height:3rem;
+    text-decoration: none;
+    padding: 0.2rem;
+}
+#dokumentacija a{
+    color:black;
+    text-decoration: none;
+    @media only screen and (max-width: 31.25em){
+        font-size: 2rem;
+    }
+}

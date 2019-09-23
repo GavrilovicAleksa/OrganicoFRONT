@@ -1,0 +1,123 @@
+[
+    {     
+        "naziv":"Badem",
+        "cena":"1000",
+        "slika":{
+            "alt":"badem",
+            "src":"img/badem.jpg"
+        },
+        "kategorija":"Kostunjavo",
+        "brojProdatih" : 112
+    },
+    {
+        "naziv":"Lesnik",
+        "cena":"1200",
+        "slika":{
+            "alt":"lesnik",
+            "src":"img/lesnik.jpg"
+        },
+        "kategorija":"Kostunjavo",
+        "brojProdatih" : 356
+    },
+    {
+        "naziv":"Grozdje",
+        "cena":"400",
+        "slika":{
+            "alt":"suvo grozdje",
+            "src":"img/suvoGrozdje.jpg"
+        },
+        "kategorija":"Suvo voce",
+        "brojProdatih" : 223
+    },
+    {
+        "naziv":"Azuki",
+        "cena":"600",
+        "slika":{
+            "alt":"azuki",
+            "src":"img/azuki.jpg"
+        },
+        "kategorija":"Mahunarke",
+        "brojProdatih" : 282
+    },
+    {
+        "naziv":"Benca",
+        "cena":"200",
+        "slika":{
+            "alt":"benca",
+            "src":"img/benca.jpg"
+        },
+        "kategorija":"Caj",
+        "brojProdatih" : 321
+    },
+    {
+        "naziv":"Heljda",
+        "cena":"300",
+        "slika":{
+            "alt":"heljda",
+            "src":"img/heljda.jpg"
+        },
+        "kategorija":"Zitarice"
+        ,
+        "brojProdatih" : 123
+    },
+    {
+        "naziv":"Kinoa",
+        "cena":"1800",
+        "slika":{
+            "alt":"kinoa",
+            "src":"img/kinoa.jpg"
+        },
+        "kategorija":"Zitarice",
+        "brojProdatih" : 528
+    },
+    {
+        "naziv":"Leca",
+        "cena":"350",
+        "slika":{
+            "alt":"leca",
+            "src":"img/leca.jpg"
+        },
+        "kategorija":"Mahunarke",
+        "brojProdatih" : 321
+    },
+    {
+        "naziv":"Mizuki",
+        "cena":"769",
+        "slika":{
+            "alt":"mizuki",
+            "src":"img/mizuki.jpg"
+        },
+        "kategorija":"Caj",
+        "brojProdatih" : 881
+    },
+    {
+        "naziv":"Ovas",
+        "cena":"769",
+        "slika":{
+            "alt":"ovas",
+            "src":"img/ovsene.jpg"
+        },
+        "kategorija":"Zitarice",
+        "brojProdatih" : 456
+    },
+    {
+        "naziv":"Senca",
+        "cena":"244",
+        "slika":{
+            "alt":"senca",
+            "src":"img/senca.jpg"
+        },
+        "kategorija":"Caj",
+        "brojProdatih" : 564
+    },
+    {
+        "naziv":"Tetovac",
+        "cena":"333",
+        "slika":{
+            "alt":"tetovac",
+            "src":"img/tetovac.jpg"
+        },
+        "kategorija":"Mahunarke",
+        "brojProdatih" : 3
+    }
+]

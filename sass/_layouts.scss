@@ -1,0 +1,133 @@
+#container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: $Greylight2;
+    box-shadow: 0 2rem 6rem rgba(0,0,0,.3);
+    display:flex;
+    flex-direction: column;
+    min-height: 50rem;
+    @media only screen and (max-width: 70em){
+        margin:0;
+        max-width: 100%;
+        width:100%;
+    }
+}
+#header{
+    height: 7rem;
+    font-size: 1.4rem;
+    background-color: white;
+    border-bottom:$Greylight2;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#content{
+    display: flex;
+    @media only screen and (max-width: 56.25em){
+        flex-direction: column;
+    }
+}
+#menu{
+    background-color:$Greydark1;
+    flex:0 0 18%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    background-color: $Greylight1;
+    min-height: 80rem;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.main-content{
+    display:flex;
+    padding:3rem;
+    background-color: $Greylight1;
+    min-height: 60rem;
+    @media only screen and (max-width: 31.25em){
+        flex-direction: column;   
+    }
+}
+.main-proizvodi{
+    @media only screen and (max-width: 50em){
+        flex-direction: column-reverse;
+    }
+}
+.main-content-products{
+    display:flex;
+    padding:3rem .5rem;
+    background-color: $Greylight1;
+    min-height: 70rem;
+    flex-direction: column-reverse;
+}
+.news{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 0 0 60%;
+    margin-right:4.5rem;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+    padding:3rem;
+    padding-top: 1rem;
+    padding-bottom:1.5rem;
+    @media only screen and (max-width: 56.25em){
+        padding:2rem;
+    }
+    @media only screen and (max-width: 31.25em){
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+}
+h2{
+    margin-bottom: 1rem;
+}
+.popular{
+    background-color:white;
+    flex:1;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+    display: flex;
+    flex-wrap: wrap;
+}
+.glavniProzivodi{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    flex: 0 0 80%;
+    margin-right:3rem;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+    padding:3rem;
+    padding-top: 1rem;
+    padding-bottom:1.5rem;
+    @media only screen and (max-width: 31.25em){
+        margin-top:2rem;
+        margin-right:0;
+    }
+}
+#proizvodi{
+    display:flex;
+    flex-wrap: wrap;
+}
+.categories{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color: white;
+    &__list{
+        @media only screen and (max-width: 50em){
+            max-width:100%;
+        }
+        margin-top:1rem;
+        list-style-type: none;
+        padding-left: 1rem;
+        font-size: 1.4rem;
+    }
+    &__item{
+        text-decoration: underline;
+        margin-top:1rem;
+    }
+    @media only screen and (max-width: 50em){
+        
+    }
+}

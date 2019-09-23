@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        
+        <title>Organico</title>
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <img src="img/logo.png" alt="logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search"id="search-value"/>
+                    <a class="search__button" id="search" href="products.html">
+                        <svg class="search__icon">
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </a>
+                </form>
+                <div class="cart">
+                            <a href="cart.html">
+                            <svg class="cart__icon">
+                                <use xlink:href="img/sprite.svg#icon-shopping-cart"></use>
+                            </svg>
+                            <span id="cart__number" class="cart__number">0</span>
+                          </a>
+                </div>
+            </header>
+            <div id="content">
+                <nav id="menu">
+                    <ul class="side-nav" id="side-nav">
+                        
+                    </ul>
+                    <a href="dokumentacija.pdf" class="side-nav__link-doc">DOKUMENTACIJA</a>
+                </nav>
+                <main class="main">
+                    <img src="img/saatki.png" class="product__img">
+                    <div class="main-content">
+                        <div class="news">
+                            <h2>Vesti</h2>
+                            <div id="vijesti">
+
+                            </div>
+                            <div class="pagination" id="paginacija">
+                                
+                            </div>
+                        </div>
+                        <div class="popular" id="popular">
+                        </div>
+                        </div>
+                </main>
+            </div>
+            <div id="dokumentacija"><a href="dokumentaija.pdf"><h3>Dokumentacija</h3></a></div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="module" src="javascript/main.js" type="text/javascript"></script>
+    </body>
+</html>
